@@ -12,6 +12,7 @@ macro-paths: ["macros"]
 
 target-path: "docs/sampledatastack"
 clean-targets:
+    - "docs"
     - "docs/sampledatastack"
     - "dbt_modules"
     - "logs"
