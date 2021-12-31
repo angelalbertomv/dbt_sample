@@ -10,9 +10,9 @@ test-paths: ["tests"]
 data-paths: ["data"]
 macro-paths: ["macros"]
 
-target-path: "target"
+target-path: "docs/sampledatastack"
 clean-targets:
-    - "target"
+    - "docs/sampledatastack"
     - "dbt_modules"
     - "logs"
 
