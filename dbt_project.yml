@@ -1,7 +1,7 @@
 
-name: 'jaffle_shop'
+name: 'sampledatastack'
 version: '0.1'
-profile: 'jaffle_shop'
+profile: 'sampledatastack'
 config-version: 2
 
 source-paths: ["models"]
@@ -17,7 +17,7 @@ clean-targets:
     - "logs"
 
 models:
-  jaffle_shop:
+  sampledatastack:
       materialized: table
       staging:
         materialized: view
